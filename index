@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="destyle.css" />
+        <script src="js/jquery-4.0.0.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="c-content">
+            <div>
+                <header class="c-profile">
+                    <div class="m-profile-img">
+                        <img alt="プロフィール画像" src="img/Ellipse_1.png" >
+                    </div>
+                    <div class="m-profile-left">
+                    <section class="m-profile-txt">
+                            <div class="">
+                                <div class="m-profile-id">
+                                        <h2 dir="auto" style="--x---base-line-clamp-line-height: 25px; --x-lineHeight: 25px;">⍰ ⍰ ⍰ ⍰ ⍰</h2>
+                                </div>
+                            </div>
+                    </section>
+                    <section class="c-profile-number">
+                        <ul>
+                            <li class="m-profile-number-post">
+                                <span class="number">
+                                    48
+                                </span>
+                                <span class="label" dir="auto" style="--x---base-line-clamp-line-height: 20px; --x-lineHeight: 20px;">
+                                    謚慕ｨｿ
+                                </span>
+                            </li>
+                            <li class="m-profile-number-follow">
+                                <span class="number" title="0">
+                                        0
+                                </span>
+                                <span class="label" dir="auto" style="--x---base-line-clamp-line-height: 20px; --x-lineHeight: 20px;">
+                                    繝輔か繝ｭ繝ｼ
+                                </span>
+                            </li>
+                            <li class="m-profile-number-follower">
+                                <div>
+                                    <span class="number">
+                                        0
+                                    </span>
+                                    <span class="label" dir="auto" style="--x---base-line-clamp-line-height: 20px; --x-lineHeight: 20px;">
+                                        繝輔か繝ｭ繝ｯ繝ｼ
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="c-profile-text">
+                            <div class="name">
+                                縺ｪ縺ｿ
+                            </div>
+                            <div class="text" aria-disabled="false" role="button" tabindex="0" style="display: inline; cursor: pointer;">
+                                縺溘�縺励＞縲縺ｩ縺薙〒繧�
+                            </div>
+                    </section>
+                    <div class="m-profile-btn">
+                        <div class="m-profile-btn-follow">
+                            繝輔か繝ｭ繝ｼ
+                        </div>
+                        <div class="m-profile-btn-message">
+                            繝｡繝?そ繝ｼ繧ｸ
+                        </div>
+                    </div>
+                    </div>
+                </header>
+                <div class="c-post">
+                    <div style="display: flex; flex-direction: column; padding-bottom: 0px; padding-top: 0px; position: relative;">
+                        <div class="m-post-column">
+                            <img alt="縺ｪ繧九⊇縺ｩ縺ｭ" class="m-post-img modal-img" crossorigin="anonymous" src="img/Rectangle%202.png">
+                            <img alt="縺願干逡�" class="m-post-img modal-img" crossorigin="anonymous" src="img/Rectangle%201.png">
+                            <img alt="" class="m-post-img modal-img" crossorigin="anonymous" src="img/Rectangle%203.png">
+                        </div>
+                        <div class="m-post-column">
+                            <img alt="縺ｪ繧九⊇縺ｩ縺ｭ" class="m-post-img popup" crossorigin="anonymous" src="img/Rectangle%204.png">
+                            <img alt="" class="m-post-img popup" crossorigin="anonymous" src="img/Rectangle%205.png">
+                            <img alt="" class="m-post-img popup" crossorigin="anonymous" src="img/Rectangle%206.png">
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+        <div class="modal">
+            <div class="modal-content">
+                <video class="modal-picture" id="video" autoplay muted>
+                </video>
+                <div class="modal-right">
+                    <div class="comment">
+                        <img alt="" src="img/Ellipse_1.png">
+                        <span class="alt-comment"></span>
+                    </div>
+                    <div class="modal-close-box">
+                        <div class="modal-close">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
