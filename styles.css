@@ -87,7 +87,7 @@
     justify-content: space-between
 }
 
-.m-post-column:nth-child(+2) {
+.m-post-column:nth-child(n+2) {
     margin-top: 4px;
 }
 
@@ -120,13 +120,13 @@
     left: 50%;
     transform: translate(-50%,-50%);
     width: 90%;
-    height: 40%;
+    height: 400px;
     background-color: #ffffff;
     display: flex;
 }
 
 .modal-picture {
-    height: 564px;
+    height: 400px;
     width: auto;
 }
 
